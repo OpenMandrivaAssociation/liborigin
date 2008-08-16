@@ -7,9 +7,10 @@ Version:	20080225
 Release:	%mkrel 1
 Summary:	Library for reading OriginLab OPJ project files
 License:	GPLv2+
-Group:		Development/Libraries
+Group:		System/Libraries
 URL:		http://sourceforge.net/projects/%{name}/
 Source:		http://belnet.dl.sourceforge.net/sourceforge/liborigin/%{name}-%{version}.tar.gz
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 BuildRequires:	cmake
 Requires:	%{libname} = %{version}
 
