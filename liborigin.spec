@@ -4,12 +4,13 @@
 
 Name:		liborigin
 Version:	20090326
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Library for reading OriginLab OPJ project files
 License:	GPLv2+
 Group:		System/Libraries
 URL:		http://sourceforge.net/projects/%{name}/
 Source:		http://belnet.dl.sourceforge.net/sourceforge/liborigin/%{name}2-%{version}.tar.gz
+Patch0:		liborigin2-20090326-boost-1.33.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 BuildRequires:	qt4-devel
 BuildRequires:	boost-devel
@@ -42,6 +43,7 @@ you will need to install %{name}-devel.
 
 %prep
 %setup -q -n %{name}2-%{version}
+%patch0 -p0
 
 %build
 %qmake_qt4
