@@ -4,7 +4,7 @@
 
 Name:		liborigin
 Version:	20090326
-Release:	%mkrel 2
+Release:	%mkrel 3
 Summary:	Library for reading OriginLab OPJ project files
 License:	GPLv2+
 Group:		System/Libraries
