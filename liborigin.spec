@@ -85,3 +85,38 @@ rm -rf %{buildroot}
 %{_includedir}/%{name}/*.hh
 %{_libdir}/%{name}2.so
 
+
+
+%changelog
+* Tue Mar 15 2011 Funda Wang <fwang@mandriva.org> 20101029-1mdv2011.0
++ Revision: 644982
+- new version 20101029
+- rebuild for new boost
+
+* Mon Aug 23 2010 Funda Wang <fwang@mandriva.org> 20090326-4mdv2011.0
++ Revision: 572322
+- rebuild for new boost
+
+* Mon Feb 08 2010 Anssi Hannula <anssi@mandriva.org> 20090326-3mdv2011.0
++ Revision: 501882
+- rebuild for new boost
+
+* Wed Feb 03 2010 Funda Wang <fwang@mandriva.org> 20090326-2mdv2010.1
++ Revision: 500108
+- link against mt libs
+
+* Tue Aug 25 2009 Emmanuel Andry <eandry@mandriva.org> 20090326-1mdv2010.0
++ Revision: 421215
+- New version 20090326
+- new major
+- now use qmake
+- BR boost-devel
+- drop main package, no more binaries provided
+
+* Sat Aug 16 2008 Emmanuel Andry <eandry@mandriva.org> 20080225-1mdv2009.0
++ Revision: 272731
+- Fix group
+- add buildroot
+- import liborigin
+
+
