@@ -5,7 +5,7 @@
 Summary:	Library for reading OriginLab OPJ project files
 Name:		liborigin
 Version:	20101029
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:		System/Libraries
 Url:		http://sourceforge.net/projects/%{name}/
