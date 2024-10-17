@@ -8,7 +8,7 @@ Version:	20101029
 Release:	3
 License:	GPLv2+
 Group:		System/Libraries
-Url:		http://sourceforge.net/projects/%{name}/
+Url:		https://sourceforge.net/projects/%{name}/
 Source0:	http://belnet.dl.sourceforge.net/sourceforge/liborigin/%{name}2-%{version}.tar.gz
 BuildRequires:	boost-devel
 BuildRequires:	qt4-devel
