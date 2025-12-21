@@ -10,6 +10,7 @@ License:	GPLv2+
 Group:		System/Libraries
 Url:		https://sourceforge.net/projects/%{name}/
 Source0:	http://belnet.dl.sourceforge.net/sourceforge/liborigin/%{name}2-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	boost-devel
 BuildRequires:	qt4-devel
 
